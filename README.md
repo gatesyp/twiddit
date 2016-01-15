@@ -1,4 +1,13 @@
 # twiddit
+github notes: 
+git checkout -b dev
+git commit 'file' -m "<msg>"
+git push
+
+git checkout master
+git merge dev
+
+
 Using sentiment analysis on a user's tweet in order to create a custom reddit account for them
 
 Dependencies: 
