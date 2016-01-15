@@ -10,9 +10,9 @@ git push
 
 git checkout master
 
-this is in between two lines
-
 git merge dev
+
+git push
 
 
 Using sentiment analysis on a user's tweet in order to create a custom reddit account for them
@@ -32,4 +32,4 @@ TODO: do in C++ or Java for learning purposes
 3. Use AlchemyAPI on batch of tweets
 4. Take results, find highest positive probabilities in the Entity and Keyword which are also positive (above 70 percent)
 5. Find related subreddits
-	a. using google queries: 'site: reddit.com "steelers"' and go to the top two links, subscribe to each subreddit using reddit API
+	. using google queries: 'site: reddit.com "steelers"' and go to the top two links, subscribe to each subreddit using reddit API
