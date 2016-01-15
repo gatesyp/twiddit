@@ -9,6 +9,7 @@ git push
 
 
 git checkout master
+
 this is in between two lines
 
 git merge dev
