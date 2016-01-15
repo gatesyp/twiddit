@@ -1,10 +1,16 @@
 # twiddit
 github notes: 
+
 git checkout -b dev
+
 git commit 'file' -m "<msg>"
+
 git push
 
+
 git checkout master
+this is in between two lines
+
 git merge dev
 
 
