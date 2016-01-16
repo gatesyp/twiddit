@@ -1,0 +1,26 @@
+1. put twitterhandler in an object so i can use it
+2. create a main.py which calls the different shit
+	a. first calls authhandler, returns api
+	b. pass api to twitterhandler along with profile name
+		i. twitter handler looks up the profile and outputs all the tweets to .txt file
+		ii. located in ./tweetRepo
+		iii. return the name of the file 
+	c. pass name of file to alchemyAPI object
+		i. open file and input to alchemyAPI
+		ii. get a json or two(output of api)
+		iii. scrub the data to only use relevant items
+		iv. put wellformed json in a list, return this list
+	d. pass the apiList to googleHandler
+		i. iterate over the list and perform lookups
+			a) query: site:reddit.com <keyword(s)>
+		ii. take the response and append to list
+		iii. return the list of all responses
+	e. get reddit username credentials
+		i. longterm: from website which calls the script passing credentials thru argvars
+		ii. shortterm: bisztibot dummy account
+	e. pass responseList to redditHandler along with reddit credentials
+		i. go to the URL - try to avoid tokenizing input
+		ii. subscribe if not already subscribed (create list of all changes)
+		iii. return changes list when completed
+	f. pass the list & credentials if needed to twitterHandler
+		i. DM list & credentials to profile
