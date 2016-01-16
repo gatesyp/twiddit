@@ -27,7 +27,7 @@ I am using Python for development, heavy reliance on JSON
 
 TODO: do in C++ or Java for learning purposes
 
-1. Download 50-100 tweets (store content in database?  ) 
+1. Download 50-100 tweets 
 2. Take content of each tweet and concatenate bunches of 20 tweets together
 3. Use AlchemyAPI on batch of tweets
 4. Take results, find highest positive probabilities in the Entity and Keyword which are also positive (above 70 percent)
