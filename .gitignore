@@ -1,3 +1,5 @@
 AuthHandler.py
 *.txt
 *.pwc
+*.txt~
+*.swp
