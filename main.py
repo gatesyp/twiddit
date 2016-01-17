@@ -6,7 +6,7 @@ import apiHandler
 import googleHandler
 import redditHandler
 
-api = AuthHandler.login()
+api = authHandler.login()
 fileName = twitterHandler.getTweets(api, sys.argv[1])
 responseList = apiHandler.getData(fileName)
 # recommendationList = googleHandler.getRec(responseList)

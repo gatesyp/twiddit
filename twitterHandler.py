@@ -10,8 +10,8 @@ import pprint
 def store(tweet, profile, timestamp):
 
 	fp = codecs.open("./tweetsRepo/" + profile + timestamp + ".txt", "a", "utf-8")
-	fp.write(tweet["text"])
-
+	print(tweet["text"])
+	fp.write(str(tweet["text"].encode('utf-8')))
 def getTweets(api, profile):
 	timestamp = str(time.time())
 	filename = profile + timestamp
