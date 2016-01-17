@@ -12,10 +12,10 @@ reddit python API(I am using PRAW)
 Technology used: Python 3.5
 
 TODO: 
-	1. Fix encoding errors from twitter
-	2. Register with Google API services to allow for more requests
-	3. Instead of .txt file, upload to MySQL database and include more information about each tweet
-	4. Create website for interfacing
+	1. Fix encoding errors from twitter\n
+	2. Register with Google API services to allow for more requests\n
+	3. Instead of .txt file, upload to MySQL database and include more information about each tweet\n
+	4. Create website for interfacing\n
 
 Procedure:
 	1. Download all tweets
